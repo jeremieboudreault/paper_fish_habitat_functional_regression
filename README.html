@@ -365,15 +365,15 @@ summary {
 </div>
 
 
-<div id="modelling-fish-habitat-selection-using-functional-regression" class="section level2">
-<h2>Modelling fish habitat selection using functional regression 🐟</h2>
+<div id="fish-habitat-modelling-using-functional-regression" class="section level1">
+<h1>Fish habitat modelling using functional regression 🐟</h1>
 <ul>
 <li>A scientific research by <strong>Jeremie Boudreault</strong>, Fateh Chebana, André St-Hilaire and Normand Bergeron</li>
-<li>This project is part of my <strong>master degree</strong> in water sciences at <a href="http://inrs.ca"><strong>Institut National de la Recherche Scientifique</strong></a> (INRS)</li>
-<li>All <strong>codes</strong> and <strong>data</strong> are freely available here under the xxxx license</li>
-<li>Questions regarding the code or the data should be sent to <strong><a href="mailto:Jeremie.Boudreault@ete.inrs.ca" class="email">Jeremie.Boudreault@ete.inrs.ca</a></strong></li>
+<li>This project was part of my <strong>master degree</strong> in water sciences at <em>Institut National de la Recherche Scientifique</em>.</li>
+<li>All <strong>codes</strong> and <strong>data</strong> are made available here under the <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Common License <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAABGdBTUEAANbY1E9YMgAAAJZQTFRF////7u7u3d3dys7KzMzMyMzIxsrGxcbFur+6u7u7s7iyq7GqqqqqmZmZlJmTj5CPiIiIh4eHhoaGgICAfYJ9d3d3cnZxZ2tnZmZmW15bVVVVS0xLREREQ0NDQkJCQUJBOz07OTs5MzMzMTMxLjAuJygnJCUjIiIiISEhICAgGRkZERERDxAPDg4ODQ4NDQ0NDQ0MAAAADbeuvgAAAOJJREFUeNqtk21PAjEQhKdyKjpwFrGIWN8QOPE8cP7/n/PD9YolmhivmzRpJ9un090WyhwQsoYgkCRvZYPkm5IcfPzbXwssGxsP8WtyOO0JfH47uC50R57e9wPuLIpK3nhVBfwrObiSJAAS1A7FKXAAhDYcAW90gWoB52ozHsHtyOF5yEebFfK71W9CB5ypMLLAYgkAriEvz6LD4KPb2+FTAT869PPauDHcPnWo7zdE6vBIiDXcW4xqzY3X8gQPq6SGKfBvNeTLNnOXy89JBD5uMrxDznQdeE/vfX9K7r+cOb4AY2+UGwcd6o0AAAAASUVORK5CYII=" /></a> .</li>
+<li>The <a href="https://www.tandfonline.com/doi/abs/10.1080/24705357.2020.1840313"><strong>research article</strong></a> was published in <em>Journal of Ecohydraulics</em> on 09/02/2021.</li>
+<li>Questions regarding the code or the data should be sent to <strong><a href="mailto:Jeremie.Boudreault@ete.inrs.ca" class="email">Jeremie.Boudreault@ete.inrs.ca</a></strong>.</li>
 </ul>
-</div>
 <div id="data" class="section level2">
 <h2>Data</h2>
 <p>Data are from <strong>field survey</strong> that have been conducted during summer 2017 on the <strong>Sainte-Marguerite river</strong> (SMR) :</p>
@@ -382,9 +382,9 @@ summary {
 <li><code>data/*</code> : contains the cleaned and transformed datasets</li>
 </ul>
 </div>
-<div id="r-codes" class="section level2">
-<h2>R codes</h2>
-<p>Codes are all from Jeremie Boudreault. They use the R package <code>mgcv</code> to fit <strong>generalized additive models</strong> (GAM) and of <code>FDboost</code> to fit <strong>functional regression models</strong> (FRM) :</p>
+<div id="r-scripts" class="section level2">
+<h2>R scripts</h2>
+<p>Scripts are all from Jeremie Boudreault. They use the R package <code>mgcv</code> to fit <strong>generalized additive models</strong> (GAM) and of <code>FDboost</code> to fit <strong>functional regression models</strong> (FRM) :</p>
 <ul>
 <li><code>R/Data_initial_cleaning.R</code> : code to clean the field data spreadsheets and produce more adapted datasets</li>
 <li><code>R/Data_salmons_lengths.R</code>: code to convert the salmon lengths to number of fry and parr</li>
@@ -399,8 +399,8 @@ summary {
 <li><code>R/Models_performance.R</code> : compare the results between GAMs and FRMs</li>
 </ul>
 </div>
-<div id="out" class="section level2">
-<h2>Out</h2>
+<div id="results" class="section level2">
+<h2>Results</h2>
 <p>A folder for the <strong>results</strong> at each part of the coding process :</p>
 <ul>
 <li><code>out/data visualisation/*</code> : raw data visualisation and tables</li>
@@ -408,6 +408,7 @@ summary {
 <li><code>out/coefficients/*</code> : coefficients of the models</li>
 <li><code>out/predictions/*</code> : leave-one-out predictions and goodness-of-fit</li>
 </ul>
+</div>
 </div>
 
 
