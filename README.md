@@ -3,8 +3,8 @@ Fish habitat modelling using functional regression
 
 
 + A scientific research by __Jeremie Boudreault__, Fateh Chebana, André St-Hilaire and Normand Bergeron
-+ This project was part of my __master degree__ in water sciences at _Institut National de la Recherche Scientifique_.
-+ All __codes__ and __data__ are made available here under [![](https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/) .
++ This project was part of my master degree in water sciences at _Institut National de la Recherche Scientifique_.
++ All codes and data are made available here under [![](https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/) .
 + Questions regarding the code or the data should be sent to [firstname.lastname@inrs.ca]()
 
 The research entitled [***Modelling fish physico-thermal habitat selection using functional regression***](https://www.tandfonline.com/doi/abs/10.1080/24705357.2020.1840313) was published in _Journal of Ecohydraulics_ in 2021.
